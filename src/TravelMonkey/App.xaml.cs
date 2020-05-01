@@ -15,6 +15,10 @@ namespace TravelMonkey
         {
             InitializeComponent();
 
+            Device.SetFlags(new[] {
+                "Expander_Experimental"
+            });
+
             MainPage = new SplashScreen();
         }
 
